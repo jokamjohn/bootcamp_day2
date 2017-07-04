@@ -33,3 +33,16 @@ class Animal:
 
     def move(self):
         return "It is walking"
+
+
+class Horse(Animal):
+    """A Horse class inheriting from Animal and overriding animal type and sound"""
+    animal_type = 'Horse'
+    sound = 'neigh neigh '
+
+
+class Snake(Animal):
+    """A snake class class inheriting from Animal overriding animal type,sound and number of legs"""
+    animal_type = 'Snake'
+    sound = 'hiss '
+    num_of_legs = 0
