@@ -46,3 +46,9 @@ class Snake(Animal):
     animal_type = 'Snake'
     sound = 'hiss '
     num_of_legs = 0
+
+
+class Cow(Animal):
+    """A Cow class inheriting from Animal and overriding animal type and sound"""
+    animal_type = 'Cow'
+    sound = 'mow '
