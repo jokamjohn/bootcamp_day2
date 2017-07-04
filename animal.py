@@ -7,6 +7,12 @@ class Animal:
     sound = 'roar'
     num_of_horns = 0
 
+    def __str__(self):
+        """Return the string representation of the class"""
+        return "A {} with {} legs makes a {} sound.".format(self.__class__.__name__,
+                                                            self.num_of_legs,
+                                                            self.sound)
+
     def make_sound(self):
         """Return the sound the animal makes three times"""
         return self.sound.upper() * 2
