@@ -17,3 +17,13 @@ class Animal:
             return True
         else:
             return False
+
+    def has_legs(self):
+        """Returns boolean if the animal has legs"""
+        if self.num_of_legs > 0:
+            return True
+        else:
+            return False
+
+    def move(self):
+        return "It is walking"
